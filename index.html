@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Interactive rating component</title>
+
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <main>
+    <!-- Raing section -->
+    <article class="rating__section">
+
+      <picture class="star__icon">
+        <img src="/images/icon-star.svg" alt="star icon">
+      </picture>
+
+      <h3 class="heading">How did we do?</h3>
+
+      <p class="detail">Please let us know how we did with your support request. All feedback is appreciated
+        to help us improve our offering!</p>
+
+      <ul class="rating">
+        <li><a href="#" class="star">1</a></li>
+
+        <li><a href="#" class="star">2</a></li>
+
+        <li><a href="#" class="star">3</a></li>
+
+        <li><a href="#" class="star">4</a></li>
+
+        <li><a href="#" class="star">5</a></li>
+      </ul>
+
+      <a href="#" class="btn" id="submit">submit</a>
+    </article>
+
+    <!-- Thank you section -->
+    <article class="thankyou__section">
+      <picture>
+        <img src="/images/illustration-thank-you.svg" alt="thank you">
+      </picture>
+
+      <div class="rating__mention">You selected <span id="rate">0</span> out of 5</div>
+
+      <h2>Thank you!</h2>
+
+      <p class="detail">We appreciate you taking the time to give a rating. If you ever need more support,
+        don't hesitate to get in touch!</p>
+
+      <a href="#" class="btn" id="back">Back</a>
+    </article>
+  </main>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
